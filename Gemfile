@@ -33,6 +33,7 @@ gem 'devise'
 
 #front end
 gem 'font-awesome-rails'
+gem 'bootstrap-datepicker-rails'
 
 #back end
 gem 'simple_form'

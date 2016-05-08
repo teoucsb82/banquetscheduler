@@ -1,0 +1,14 @@
+h1 Schedules
+
+table.table
+  thead
+    tr
+      th Name
+      th Start date
+      th
+      th
+      th
+  tbody
+    = render @schedules
+
+= link_to 'New Schedule', new_schedule_path, class: "btn btn-primary"

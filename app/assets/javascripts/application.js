@@ -14,4 +14,5 @@
 //= require jquery_ujs
 //= require tether
 //= require bootstrap-4/bootstrap
+//= require bootstrap-datepicker
 //= require_tree .

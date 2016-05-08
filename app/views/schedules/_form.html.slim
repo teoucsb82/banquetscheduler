@@ -1,0 +1,8 @@
+= simple_form_for @schedule do |f|
+  = f.error_notification
+
+  .form-inputs
+    = f.input :name
+    = f.input :start_date, as: :string, input_html: { class: "datepicker" }
+  .form-actions
+    = f.button :submit, nil, class: "btn btn-primary btn-block"
